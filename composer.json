@@ -1,0 +1,14 @@
+{
+    "name": "phpomg/emitter",
+    "description": "一个response的发射器",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "psr/http-message": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPOMG\\Emitter\\": "src/"
+        }
+    }
+}
